@@ -297,14 +297,15 @@ p a {
 .nav {
   text-align: right;
 }
-.nav li{
+.nav li {
   display: inline-block;
   margin: 0 10px;
   vertical-align: top;
 }
-.nav li:last-child{
+.nav li:last-child {
   margin-right: 0;
 }
+
 /*
   ========================================
   Home
@@ -327,20 +328,26 @@ p a {
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
+.teaser img{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
 
 /*
-==================================
-Speakers
-==================================
+  ========================================
+  Speakers
+  ========================================
 */
 
-.speaker-info{
+.speaker {
+  margin-bottom: 44px;
+}
+.speaker-info {
   border: 1px solid #dfe2e5;
   border-radius: 5px;
   margin-top: 88px;
   padding: 22px 0;
   text-align: center;
-}
-.speaker{
-  margin-bottom: 44px;
 }
